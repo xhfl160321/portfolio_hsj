@@ -1,0 +1,213 @@
+/********** 그림초보 캐릭터 디자인 **********/
+.gc{
+    width: 100%;
+    position: relative;
+}
+
+/* 그림초보 로고 및 설명, 다양한 그림 */
+/* 그림초보 대표 그림 */
+.gc_logo{
+    width: 70%;
+    height: 3240px;
+    margin: 0 auto;
+}
+.gc_main_logo{
+    height: 1080px;
+    text-align: center;
+    /* background: #111; */
+}
+.gc_main_logo img{
+    width: 638px;
+    height: auto;
+    margin-top: 221px;
+}
+/* 그림초보 설명 */
+.gc_article{
+    width: 70%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    /* background: #fff; */
+}
+.gc_article p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    line-height: 38px;
+    margin-bottom: 100px;
+}
+.gc_article .work ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px 0;
+    text-align: center;
+}
+.gc_article .work ul li{
+    width: 175px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.gc_article .work ul:last-child li{
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+}
+.gc_article .work ul:last-child li:last-child span{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+}
+.gc_article .work ul:last-child li:last-child .pink{
+    background: #F2ACC6;
+}
+.gc_article .work ul:last-child li:last-child .blue{
+    background: #068BBF;
+}
+.gc_article .work ul:last-child li:last-child .green{
+    background: #58A681;
+}
+.gc_article .work ul:last-child li:last-child .yellow{
+    background: #F2DD72;
+}
+.gc_article .work ul:last-child li:last-child .red{
+    background: #F26D6D;
+}
+/* 다양한 그림초보 그림 */
+.gc_chracter{
+    width: 100%;
+    height: 1510px;
+    position: relative;
+}
+.gc_tg{
+    width: 970px;
+    height: 1065px;
+    position: absolute;
+    bottom: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    /* background: #FFF; */
+}
+.gc_tg tbody{
+    width: 100%;
+    height: 100%;
+}
+.gc_tg tbody tr{
+    width: 33.33%;
+    height: 33.33%;
+}
+.gc_tg td{
+    /* border-color: black;
+    border-style: solid;
+    border-width: 1px; */
+    overflow: hidden;
+    word-break: normal;
+    width: 33.33%;
+    height: 33.33%;
+}
+.gc_tg .tg-0lax{
+    text-align: center;
+}
+.gc_tg .tg-0lax img{
+    width: 300px;
+    height: auto;
+
+}
+
+/* 그림초보 굿즈 목업 */
+.gc_goods{
+    width: 100%;
+    /* height: 3740px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+.gc_goods div{
+    width: 70%;
+    height: 1080px;
+    overflow: hidden;
+    position: relative;
+}
+.gc_mockup1 img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    object-fit: cover;
+}
+/* .gc_mockup2 img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+} */
+.gc_mockup2{
+    width: 70%;
+    /* background: #444; */
+}
+.gc_mockup2 div{
+    position: absolute;
+    bottom: 0;
+}
+.gc_mockup2 div img{
+    transition: 0.8s;
+    filter: drop-shadow(3px 5px 5px rgba(0,0,0,0.2));
+}
+.gc_mockup2 div img:hover{
+    filter: drop-shadow(3px 5px 5px rgba(0,0,0,0.5));
+}
+.gc_mockup2 .left{
+    width: 455px;
+    height: auto;
+}
+.gc_mockup2 .left img{
+    width: 450px;
+    height: auto;
+}
+.gc_mockup2 .right{
+    width: 600px;
+    height: auto;
+    right: 0;
+}
+.gc_mockup2 .right img{
+    width: 595px;
+    height: auto;
+}
+.gc_mockup3 img{
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+}
+/* .rectangle{
+    min-width: 100vw;
+    height: 530px;
+    background: #d9d9d9;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 306px;
+    z-index: -50;
+} */
+
+.qr{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.qr img{
+    width: 368px;
+    height: auto;
+    margin-top: 332px;
+}

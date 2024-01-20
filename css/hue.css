@@ -1,0 +1,202 @@
+/********** 힐링휴 브랜딩 디자인 *********/
+.hue{
+    margin-top: 10%;
+    width: 100%;
+    position: relative;
+    
+}
+/* 메인로고 목업 */
+.hue_logo{
+    width: 100%;
+    height: 1080px;
+    background-image: url(../images/힐링휴로고목업.jpg);
+    background-position: center;
+    background-size: cover;
+    /* position: absolute; */
+}
+/* 브랜드 설명 */
+.hue_article{
+    /* position: absolute; */
+    width: 70%;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    /* background: blue; */
+}
+.hue_article h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.hue_article h5{
+    font-size: 18px;
+    letter-spacing: 0.25em;
+    font-weight: 800;
+}
+.hue_article p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    line-height: 38px;
+    margin: 100px 0;
+}
+.hue_article p span{
+    font-weight: 600;
+    
+}
+
+.hue_article .work ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px 0;
+    text-align: center;
+}
+.hue_article .work ul li{
+    width: 175px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.hue_article .work ul:last-child li{
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+}
+.hue_article .work ul:last-child li:last-child{
+    text-align: left;
+}
+.hue_article .work ul:last-child li:last-child .y{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 45px;
+    margin-right: 10px;
+    background: #E9BF42;
+    display: inline-block;
+    text-align: center;
+}
+.hue_article .work ul:last-child li:last-child .g{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 45px;
+    background: #3B582B;
+    display: inline-block;
+    text-align: center;
+}
+
+/* 힐링휴 서브로고1 */
+.hue_sublogo1{
+    margin: 120px 0;
+    width: 100%;
+    height: 840px;
+    background-image: url(../images/힐링휴서브로고1.png);
+    background-position: center;
+    background-size: cover;
+}
+/* 힐링휴 서브로고2 */
+.hue_sublogo2{
+    margin: 0 auto;
+    width: 70%;
+    height: 1080px;
+    text-align: center;
+}
+
+.hue_sublogo2 img{
+    width: 300px;
+    height: auto;
+    margin-top: 390px;
+}
+
+/* 힐링휴 건물 간판 목업 */
+.hue_sign{
+    width: 100%;
+    height: 1080px;
+}
+.hue_sign div{
+    width: 100%;
+    height: 750px;
+    margin: 165px 0;
+    background: rgba(59,88,43,0.2);
+    text-align: center;
+}
+.hue_sign div img{
+    width: 740px;
+    height: auto;
+    margin-top: 84px;
+}
+
+/* 힐링휴 굿즈 목업 */
+.hue_goods{
+    width: 100%;
+    height: 3240px;
+    display: flex;
+    flex-direction: column;
+    /* background: pink; */
+}
+.hue_goods img{
+    object-fit: cover;
+    margin-bottom: 0;
+}
+.hue_goods .hue_bottle{
+    width: 100%;
+    height: 992px;
+    /* background: #111; */
+}
+.hue_goods .hue_bottle img{
+    width: 858px;
+    height: 767px;
+    margin-left: 50px;   
+}
+.hue_goods .hue_checklist{
+    width: 100%;
+    height: 753px;
+    /* background: #222; */
+    position: relative;
+}
+.hue_goods .hue_checklist img{
+    width: 997px;
+    height: 665px;
+    position: absolute;
+    right: 0;
+}
+.hue_goods .hue_card{
+    width: 100%;
+    height: 700px;
+    /* background: #333; */
+}
+.hue_goods .hue_card img{
+    width: 855px;
+    height: 664px;
+}
+.hue_goods .hue_banner{
+    width: 100%;
+    height: 795px;
+    position: relative;
+    /* background: #444; */
+}
+.hue_goods .hue_banner img{
+    width: 950px;
+    height: 727px;
+    position: absolute;
+    right: 0; bottom: 0;
+}
+
+/* 힐링휴 메인로고 및 마무리 */
+.main_logo{
+    width: 100%;
+    height: 1080px;
+    text-align: center;
+}
+.main_logo img{
+    width: 210px;
+    height: auto;
+    margin-top: 365px;
+}
