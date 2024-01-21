@@ -320,3 +320,33 @@ footer p{
 footer p span{
     font-weight: 500;
 }
+
+/* 위로 올라가는 화살표 이미지 */
+.up{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -50px; right: -100px;
+}
+.up a{
+    width: 100%;
+    height: 100%;
+}
+.up a img{
+    width: 50px;
+    height: auto;
+    transition: 0.8s;
+}
+.up a img:hover{
+    filter: drop-shadow(3px 5px 5px rgba(0,0,0,0.8));
+}
+
+.main_logo .up{
+    bottom: 50px; right: 150px;
+}
+.main_logo .up img{
+    margin-top: 0;
+}
