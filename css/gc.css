@@ -12,7 +12,7 @@
     margin: 0 auto;
 }
 .gc_main_logo{
-    height: 1080px;
+    height: 900px;
     text-align: center;
     /* background: #111; */
 }
@@ -131,73 +131,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* position: relative; */
 }
 .gc_goods div{
     width: 70%;
-    height: 1080px;
-    overflow: hidden;
-    position: relative;
+    margin-top: 500px;
 }
 .gc_mockup1 img{
     width: 100%;
     height: auto;
-    position: absolute;
-    bottom: 0;
     object-fit: cover;
 }
-/* .gc_mockup2 img{
+.gc_mockup2 {
+    margin-top: 500px;
+}
+.gc_mockup2 img{
     width: 100%;
     height: auto;
-    position: absolute;
-    bottom: 0;
-} */
-.gc_mockup2{
-    width: 70%;
-    /* background: #444; */
+    object-fit: cover;
 }
-.gc_mockup2 div{
-    position: absolute;
-    bottom: 0;
-}
-.gc_mockup2 div img{
-    transition: 0.8s;
-    filter: drop-shadow(3px 5px 5px rgba(0,0,0,0.2));
-}
-.gc_mockup2 div img:hover{
-    filter: drop-shadow(3px 5px 5px rgba(0,0,0,0.5));
-}
-.gc_mockup2 .left{
-    width: 455px;
-    height: auto;
-}
-.gc_mockup2 .left img{
-    width: 450px;
-    height: auto;
-}
-.gc_mockup2 .right{
-    width: 600px;
-    height: auto;
-    right: 0;
-}
-.gc_mockup2 .right img{
-    width: 595px;
-    height: auto;
-}
-.gc_mockup3 img{
-    width: 100%;
-    position: absolute;
-    bottom: -10px;
-}
-/* .rectangle{
-    min-width: 100vw;
-    height: 530px;
-    background: #d9d9d9;
-    opacity: 0.7;
-    position: absolute;
-    bottom: 306px;
-    z-index: -50;
-} */
+
 
 .qr{
     height: 500px;

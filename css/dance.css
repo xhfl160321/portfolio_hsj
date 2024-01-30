@@ -1,0 +1,238 @@
+.illust{
+    width: 100%;
+    height: auto;
+    margin-top: 500px;
+}
+
+/* 춤추는 연인 소개 */
+.dancing_article{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.dancing_article img{
+    width: 350px;
+    height: auto;
+    
+}
+.dancing_article p{
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    line-height: 38px;
+    margin: 150px 0;
+}
+.dancing_article p span{
+    font-weight: 600;
+}
+.dancing_article .work{
+    width: 525px;
+    margin: 0 auto;
+}
+.dancing_article .work ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px 0;
+    text-align: center;
+}
+.dancing_article .work ul li{
+    width: 175px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.dancing_article .work ul:last-child li{
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* love wins all 유투브 */
+.video{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 500px;
+    margin-bottom: 250px;
+}
+.video p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 250px;
+}
+
+/* 춤추는 연인 일러스트와 love wins all 가사 */
+.dancing_illust{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dancing_illust div{
+    width: 85%;
+    height: 540px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 01 */
+.dancing_illust1 img{
+    width: 330px;
+    height: auto;
+}
+.dancing_illust1 p{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    line-height: 38px;
+}
+/* 02 */
+.dancing_illust2 img{
+    width: 400px;
+    height: auto;
+}
+.dancing_illust2 p{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    line-height: 38px;
+    text-align: right;
+}
+/* 03 */
+.dancing_illust3 img{
+    width: 360px;
+    height: auto;
+}
+.dancing_illust3 p{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    line-height: 38px;
+}
+/* 04 */
+.dancing_illust4 img{
+    width: 350px;
+    height: auto;
+}
+.dancing_illust4 p{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    line-height: 38px;
+    text-align: right;
+}
+/* 05 */
+.dancing_illust5 img{
+    width: 485px;
+    height: auto;
+}
+.dancing_illust5 p{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    line-height: 38px;
+}
+/* 06 */
+.dancing_illust6 img{
+    width: 380px;
+    height: auto;
+}
+.dancing_illust6 p{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    line-height: 38px;
+    text-align: right;
+}
+/* 07 */
+.dancing_illust7 img{
+    width: 400px;
+    height: auto;
+}
+.dancing_illust7 p{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    line-height: 38px;
+}
+/* 08 */
+.dancing_illust8 img{
+    width: 400px;
+    height: auto;
+}
+.dancing_illust8 p{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    line-height: 38px;
+    text-align: right;
+}
+/* 09 */
+.dancing_illust9 img{
+    width: 420px;
+    height: auto;
+}
+.dancing_illust9 p{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    line-height: 38px;
+}
+/* 10 */
+.dancing_illust10 img{
+    width: 420px;
+    height: auto;
+}
+.dancing_illust10 p{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    line-height: 38px;
+    text-align: right;
+}
+/* 11 */
+.dancing_illust11 img{
+    width: 400px;
+    height: auto;
+}
+.dancing_illust11 p{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    line-height: 38px;
+}
+
+/* love wins all 앨범 리다자인 */
+.dancing_redesign{
+    width: 100%;
+    height: auto;
+    margin: 500px 0;
+}
+.dancing_redesign img{
+    width: 100%;
+    height: auto;
+}
+
+/* 춤추는 연인 스케치 */
+.dancing_skech{
+    width: 100%;
+    height: 1080px;
+    background-image: url(../images/dancing/paper.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 250px;
+}
+.dancing_skech img{
+    width: 1000px;
+    height: auto;
+}

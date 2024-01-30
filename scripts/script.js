@@ -138,6 +138,61 @@
         }
     }
 
+
+    // ipad page image hover 시 해당 이름 show
+    var drawImgBtn1 = $(".ipad_goods_1 .top img:nth-child(1)");
+    var drawImgBtn2 = $(".ipad_goods_1 .top img:nth-child(3)");
+    var drawImgBtn3 = $(".ipad_goods_1 .mid img:not(.name)");
+    var drawImgBtn4 = $(".ipad_goods_1 .bottom img:not(.name)");
+    var drawImgName1 = $(".ipad_goods_1 .top img:nth-child(2)");
+    var drawImgName2 = $(".ipad_goods_1 .top img:nth-child(4)");
+    var drawImgName3 = $(".ipad_goods_1 .mid img:nth-child(2)");
+    var drawImgName4 = $(".ipad_goods_1 .bottom img:nth-child(4)");
+        
+
+    drawImgBtn1.hover(function(){
+        drawImgName1.css({"opacity" : 1});
+    }, function(){
+        drawImgName1.css({"opacity" : 0});
+    });
+    drawImgBtn2.hover(function(){
+        drawImgName2.css({"opacity" : 1});
+    }, function(){
+        drawImgName2.css({"opacity" : 0});
+    });
+    drawImgBtn3.hover(function(){
+        drawImgName3.css({"opacity" : 1});
+    }, function(){
+        drawImgName3.css({"opacity" : 0});
+    });
+    drawImgBtn4.hover(function(){
+        drawImgName4.css({"opacity" : 1});
+    }, function(){
+        drawImgName4.css({"opacity" : 0});
+    });
+
+
+    var drawImgTop = $(".ipad_goods_2 .top img");
+    var drawImgMid = $(".ipad_goods_2 .mid img");
+    var drawImgBottom = $(".ipad_goods_2 .bottom img");
+
+    drawImgTop.hover(function(){
+        $(".ipad_goods_2 .top .name").css({"opacity" : 1});
+    }, function(){
+        $(".ipad_goods_2 .top .name").css({"opacity" : 0});
+    });
+    drawImgMid.hover(function(){
+        $(".ipad_goods_2 .mid .name").css({"opacity" : 1});
+    }, function(){
+        $(".ipad_goods_2 .mid .name").css({"opacity" : 0});
+    });
+    drawImgBottom.hover(function(){
+        $(".ipad_goods_2 .bottom .name").css({"opacity" : 1});
+    }, function(){
+        $(".ipad_goods_2 .bottom .name").css({"opacity" : 0});
+    });
+
+
     // 클릭 시 부드러운 이동
     $('a[href*="#"]').on('click', function (e) {
         e.preventDefault();

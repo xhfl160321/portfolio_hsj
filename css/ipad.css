@@ -1,0 +1,144 @@
+.ipad{
+    width: 100%;
+    height: auto;
+    margin-top: 500px;
+}
+
+/* ipad_drawing */
+.ipad_drawing{
+    width: 100%;
+
+}
+.drawing_intro{
+    width: 70%;
+    height: 1080px;
+    margin: 0 auto;
+    text-align: center;
+}
+.drawing_intro img{
+    width: 625px;
+    height: auto;
+
+}
+.drawing_intro h2{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin-top: 100px;
+}
+.drawing_intro p{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin: 100px 0;
+}
+
+/* ipad_goods_1 */
+.ipad_goods_1, .ipad_goods_2, .ipad_goods_3{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+.ipad_goods_1 div, .ipad_goods_2 div{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.ipad_goods_1 .top img, .ipad_goods_2 .top img{
+    width: 45%;
+    height: auto;
+}
+.ipad_goods_1 .mid img, 
+.ipad_goods_1 .bottom img,
+.ipad_goods_2 .mid img,
+.ipad_goods_2 .bottom img
+{
+    width: 30%;
+    height: auto;
+}
+
+/* 화살표 custom */
+.ipad_goods_1 .top img:nth-child(2){
+    width: 230px;
+    height: auto;
+    position: absolute;
+    left: -100px; top: 20px;
+    opacity: 0;
+    translate: 1s;
+}
+.ipad_goods_1 .top img:nth-child(4){
+    width: 210px;
+    height: auto;
+    position: absolute;
+    right: -100px; top: 200px;
+    opacity: 0;
+}
+.ipad_goods_1 .mid img:nth-child(2){
+    width: 170px;
+    height: auto;
+    position: absolute;
+    left: -60px; top: 650px;
+    opacity: 0;
+}
+.ipad_goods_1 .bottom img:nth-child(4){
+    width: 170px;
+    height: auto;
+    position: absolute;
+    right: -60px; top: 1050px;
+    opacity: 0;
+}
+
+/* ipad_goods_2 */
+.ipad_goods_2, .ipad_goods_3{
+    margin: 0 auto;
+    margin-top: 500px;
+}
+.ipad_goods_2 p,.ipad_goods_3 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 250px;
+}
+/* 화살표 custom */
+.ipad_goods_2 div .name{
+    height: auto;
+    position: absolute;
+    opacity: 0;
+}
+.ipad_goods_2 .top .clock{
+    width: 160px;
+    left: -50px; top: 400px;
+}
+.ipad_goods_2 .top .case{
+    width: 185px;
+    right: -80px; top: 500px;
+}
+.ipad_goods_2 .mid .postcard{
+    width: 180px;
+    left: -80px; top: 1300px;
+}
+.ipad_goods_2 .mid .grip{
+    width: 190px;
+    right: -80px; top: 1800px;
+}
+.ipad_goods_2 .bottom .pin{
+    width: 195px;
+    left: 250px; top: 2225px;
+}
+
+/* 맞춤 제작 굿즈 */
+.ipad_goods_3 .goods, 
+.ipad_goods_3 .qr{
+    width: 100%;
+    margin: 100px 0;
+}
+.ipad_goods_3 .goods img{
+    width: 100%;
+    height: auto;
+}
+.ipad_goods_3 .qr img{
+    width: 350px;
+    height: auto;
+    text-align: center;
+
+}

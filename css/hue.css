@@ -9,7 +9,7 @@
 .hue_logo{
     width: 100%;
     height: 1080px;
-    background-image: url(../images/힐링휴로고목업.jpg);
+    background-image: url(../images/hue/힐링휴로고목업.jpg);
     background-position: center;
     background-size: cover;
     /* position: absolute; */
@@ -97,7 +97,7 @@
     margin: 120px 0;
     width: 100%;
     height: 840px;
-    background-image: url(../images/힐링휴서브로고1.png);
+    background-image: url(../images/hue/힐링휴서브로고1.png);
     background-position: center;
     background-size: cover;
 }

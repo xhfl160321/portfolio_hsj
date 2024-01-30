@@ -30,7 +30,7 @@ ul, li{
 }
 
 body{
-    background: #f2f2f2;
+    background: #fff;
     /* position: relative; */
 }
 section{
@@ -239,7 +239,7 @@ section{
 }
 
 .ai_progress span{
-    width: 45%;
+    width: 50%;
 }
 .fig_progress span{
     width: 40%;
@@ -248,7 +248,7 @@ section{
     width: 45%;
 }
 .ps_progress span{
-    width: 25%;
+    width: 35%;
 }
 .dw_progress span{
     width: 65%;
@@ -318,7 +318,15 @@ footer p{
     line-height: 38px;
 }
 footer p span{
+    font-weight: 600;
+}
+footer h6{
+    font-size: 17px;
     font-weight: 500;
+    opacity: 0.8;
+    color: #888;
+    letter-spacing: 0.1em;
+    margin-top: 100px;
 }
 
 /* 위로 올라가는 화살표 이미지 */
@@ -350,3 +358,4 @@ footer p span{
 .main_logo .up img{
     margin-top: 0;
 }
+
