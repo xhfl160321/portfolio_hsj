@@ -14,7 +14,7 @@ a,
 p, h1, h2, h3, h4, h5, h6, span {
     text-decoration: none;
     font-size: 1.1em;
-    font-family: "Roboto", sans-serif;
+    font-family: "Wanted Sans";
     color: #111;
     /*   color: #B24904;   point color: 111*/
 }
@@ -22,6 +22,7 @@ p, h1, h2, h3, h4, h5, h6, span {
 font {
     /* 메인 글씨 weight 100, 200, 300, 400, 500 */
     font-family: "Roboto", sans-serif;
+    font-family: "Wanted Sans";
 }
 
 ul, li{
@@ -81,7 +82,7 @@ section{
 .sub_nav{
     display: none;
     position: absolute;
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
     left: 0;
 }
@@ -331,20 +332,18 @@ footer h6{
 
 /* 위로 올라가는 화살표 이미지 */
 .up{
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: -50px; right: -100px;
+    width: 40px;
+    height: auto;
+    position: fixed;
+    bottom: 50px; right: 50px;
+    z-index: 50;
 }
 .up a{
     width: 100%;
     height: 100%;
 }
 .up a img{
-    width: 50px;
+    width: 100%;
     height: auto;
     transition: 0.8s;
 }
@@ -359,3 +358,6 @@ footer h6{
     margin-top: 0;
 }
 
+.illust .up{
+    bottom: 0; right: 0;
+}

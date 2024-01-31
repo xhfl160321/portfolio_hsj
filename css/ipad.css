@@ -1,7 +1,7 @@
 .ipad{
     width: 100%;
     height: auto;
-    margin-top: 500px;
+    margin: 500px 0;
 }
 
 /* ipad_drawing */
@@ -33,15 +33,43 @@
     margin: 100px 0;
 }
 
+.drawing_intro .work{
+    width: 525px;
+    margin: 0 auto;
+}
+.drawing_intro .work ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px 0;
+    text-align: center;
+}
+.drawing_intro .work ul li{
+    width: 175px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.drawing_intro .work ul:last-child li{
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+}
+
 /* ipad_goods_1 */
 .ipad_goods_1, .ipad_goods_2, .ipad_goods_3{
     width: 70%;
     margin: 0 auto;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .ipad_goods_1 div, .ipad_goods_2 div{
-    width: 100%;
+    width: 70%;
     height: auto;
+    position: relative;
     text-align: center;
 }
 .ipad_goods_1 .top img, .ipad_goods_2 .top img{
@@ -58,33 +86,37 @@
 }
 
 /* 화살표 custom */
+/* 사그라다 */
 .ipad_goods_1 .top img:nth-child(2){
-    width: 230px;
+    width: 200px;
     height: auto;
     position: absolute;
     left: -100px; top: 20px;
     opacity: 0;
     translate: 1s;
 }
+/* 스페인광장 */
 .ipad_goods_1 .top img:nth-child(4){
-    width: 210px;
+    width: 190px;
     height: auto;
     position: absolute;
     right: -100px; top: 200px;
     opacity: 0;
 }
+/* 진저 */
 .ipad_goods_1 .mid img:nth-child(2){
-    width: 170px;
+    width: 150px;
     height: auto;
     position: absolute;
-    left: -60px; top: 650px;
+    left: -60px; top: 150px;
     opacity: 0;
 }
+/* 토리 */
 .ipad_goods_1 .bottom img:nth-child(4){
     width: 170px;
     height: auto;
     position: absolute;
-    right: -60px; top: 1050px;
+    right: -60px; top: 200px;
     opacity: 0;
 }
 
@@ -106,24 +138,24 @@
     opacity: 0;
 }
 .ipad_goods_2 .top .clock{
-    width: 160px;
-    left: -50px; top: 400px;
+    width: 130px;
+    left: -50px; top: 50px;
 }
 .ipad_goods_2 .top .case{
-    width: 185px;
-    right: -80px; top: 500px;
+    width: 150px;
+    right: -50px; top: 200px;
 }
 .ipad_goods_2 .mid .postcard{
-    width: 180px;
-    left: -80px; top: 1300px;
+    width: 160px;
+    left: -80px; top: -150px;
 }
 .ipad_goods_2 .mid .grip{
-    width: 190px;
-    right: -80px; top: 1800px;
+    width: 160px;
+    right: -50px; top: 200px;
 }
 .ipad_goods_2 .bottom .pin{
-    width: 195px;
-    left: 250px; top: 2225px;
+    width: 160px;
+    left: 200px; top: 225px;
 }
 
 /* 맞춤 제작 굿즈 */
@@ -131,10 +163,12 @@
 .ipad_goods_3 .qr{
     width: 100%;
     margin: 100px 0;
+    text-align: center;
 }
 .ipad_goods_3 .goods img{
-    width: 100%;
+    width: 70%;
     height: auto;
+    
 }
 .ipad_goods_3 .qr img{
     width: 350px;

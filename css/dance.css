@@ -11,9 +11,9 @@
     text-align: center;
 }
 .dancing_article img{
-    width: 350px;
+    width: 250px;
     height: auto;
-    
+    margin-bottom: 100px;
 }
 .dancing_article p{
     font-weight: 400;
@@ -74,7 +74,7 @@
 }
 
 .dancing_illust div{
-    width: 85%;
+    width: 70%;
     height: 540px;
     display: flex;
     flex-direction: row;
