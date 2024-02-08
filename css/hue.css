@@ -119,18 +119,22 @@
 .hue_sign{
     width: 100%;
     height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
 }
 .hue_sign div{
     width: 100%;
     height: 750px;
-    margin: 165px 0;
-    background: rgba(59,88,43,0.2);
-    text-align: center;
+    background: rgba(59,88,43,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hue_sign div img{
-    width: 740px;
+    width: 750px;
     height: auto;
-    margin-top: 84px;
 }
 
 /* 힐링휴 굿즈 목업 */
@@ -153,7 +157,7 @@
 .hue_goods .hue_bottle img{
     width: 858px;
     height: 767px;
-    margin-left: 50px;   
+    /* margin-left: 50px;    */
 }
 .hue_goods .hue_checklist{
     width: 100%;

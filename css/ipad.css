@@ -113,10 +113,10 @@
 }
 /* 토리 */
 .ipad_goods_1 .bottom img:nth-child(4){
-    width: 170px;
+    width: 150px;
     height: auto;
     position: absolute;
-    right: -60px; top: 200px;
+    right: -45px; top: 200px;
     opacity: 0;
 }
 
