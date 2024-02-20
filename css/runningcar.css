@@ -1,0 +1,153 @@
+/********** 달려라 차키 웹사이트 리디자인 **********/
+.runningcar{
+    width: 100%;
+}
+
+/* 달려라 차키 메인로고 */
+.runningcar_logo{
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.runningcar_logo img{
+    width: 500px;
+    height: auto;
+}
+
+/* 달려라 차키 설명 */
+.runningcar_article{
+    width: 70%;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.runningcar_article h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.runningcar_article p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    line-height: 38px;
+    margin: 100px 0;
+}
+.runningcar_article p span{
+    font-weight: 600;
+}
+.runningcar_article .work ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px 0;
+    text-align: center;
+}
+.runningcar_article .work ul li{
+    width: 175px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.runningcar_article .work ul:last-child li{
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+}
+.runningcar_article .work ul:last-child li:last-child{
+    text-align: left;
+}
+.runningcar_article .work ul:last-child li:last-child span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 45px;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.runningcar_article .work ul:last-child li:last-child .darkgreen{
+    background: #163439;   
+}
+.runningcar_article .work ul:last-child li:last-child .orange{
+    background: #DC6D56;   
+}
+.runningcar_article .work ul:last-child li:last-child .beige{
+    background: #F8DCC1;   
+}
+
+/* 달려라 차키 반응형 웹디자인 */
+.runningcar_web{
+    margin-top: 200px;
+    width: 100%;
+    height: 3500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+.runningcar_web .web{
+    width: 40%;
+    height: 3300px;
+    position: relative;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+}
+.runningcar_web .web .web_mockup{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 50;
+    filter: drop-shadow(-5px 5px 10px #111);
+}
+.runningcar_web .web .web_b{
+    position: absolute;
+    width: 99.25%;
+    height: auto;
+    top: 35px; left: 2px;
+}
+
+.runningcar_web .mobile{
+    width: 40%;
+    height: 2000px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: blue; */
+}
+.runningcar_web .mobile .mobile_mockup{
+    width: 90%;
+    height: auto;
+    z-index: 50;
+}
+.runningcar_web article{
+    margin-top: auto;
+    position: absolute;
+    right: 20%; bottom: 20%;
+    text-align: right;
+}
+.runningcar_web article h5{
+    letter-spacing: 0.1em;
+    padding: 2% 0;
+}
+.runningcar_web article p{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    padding: 2% 0;
+    
+}

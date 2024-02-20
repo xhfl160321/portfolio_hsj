@@ -70,25 +70,23 @@
 .spacedog_article .work ul:last-child li:last-child{
     text-align: left;
 }
-.spacedog_article .work ul:last-child li:last-child .blue{
+.spacedog_article .work ul:last-child li:last-child span{
     width: 15px;
     height: 15px;
     border-radius: 50%;
     margin-left: 45px;
     margin-right: 10px;
-    background: #133E70;
     display: inline-block;
     text-align: center;
 }
+.spacedog_article .work ul:last-child li:last-child .blue{
+    background: #133E70;
+}
+.spacedog_article .work ul:last-child li:last-child .darkblue{
+    background: #1E2D40;
+}
 .spacedog_article .work ul:last-child li:last-child .red{
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    margin-right: 10px;
-    margin-left: 45px;
     background: #E75C12;
-    display: inline-block;
-    text-align: center;
 }
 
 /* 스페이스도그 서브로고 */
@@ -240,6 +238,73 @@
     width: 450px;
     height: auto;
 }
+
+/* 스페이스도그 반응형 웹디자인 */
+.spacedog_web{
+    padding-top: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+.spacedog_web .web{
+    width: 40%;
+    height: 2500px;
+    /* background: red; */
+    position: relative;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+}
+.spacedog_web .web .web_mockup{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 50;
+    filter: drop-shadow(-5px 5px 10px #111);
+}
+.spacedog_web .web .web_b{
+    position: absolute;
+    width: 99.25%;
+    height: auto;
+    top: 35px; left: 2px;
+}
+.spacedog_web .mobile{
+    width: 40%;
+    height: 2300px;
+    /* padding-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: blue; */
+}
+.spacedog_web .mobile .mobile_mockup{
+    width: 90%;
+    height: auto;
+    z-index: 50;
+}
+.spacedog_web article{
+    margin-top: auto;
+    position: absolute;
+    left: 10%;bottom: 0;
+}
+.spacedog_web article h5{
+    letter-spacing: 0.1em;
+    padding: 2% 0;
+}
+.spacedog_web article p{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    padding: 2% 0;
+}
+
 
 /* 마무리 로고 */
 .spacedog_sublogo2{ 

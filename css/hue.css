@@ -143,7 +143,7 @@
     height: 3240px;
     display: flex;
     flex-direction: column;
-    /* background: pink; */
+    background-image: linear-gradient(#E0E0E0, #DFDFDF, #DEDEDE, #DDDDDD);
 }
 .hue_goods img{
     object-fit: cover;
@@ -163,22 +163,24 @@
     width: 100%;
     height: 753px;
     /* background: #222; */
-    position: relative;
+    
 }
 .hue_goods .hue_checklist img{
     width: 997px;
     height: 665px;
-    position: absolute;
-    right: 0;
+    
 }
 .hue_goods .hue_card{
     width: 100%;
     height: 700px;
     /* background: #333; */
+    position: relative;
 }
 .hue_goods .hue_card img{
     width: 855px;
     height: 664px;
+    position: absolute;
+    right: 0;
 }
 .hue_goods .hue_banner{
     width: 100%;
