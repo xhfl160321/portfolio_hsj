@@ -59,7 +59,7 @@
 
     //타이핑할 문장
     var result1 = "안녕하십니까,";
-    var result2 = "신입 디자이너 황승재 입니다.";
+    var result2 = "신입 퍼블리셔 황승재 입니다.";
     var typeing1 = [], typeing2 = [];;
     result1 = result1.split(''); // 한글자씩자름
     result2 = result2.split(''); // 한글자씩자름
