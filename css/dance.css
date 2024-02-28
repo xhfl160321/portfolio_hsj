@@ -213,11 +213,22 @@
 .dancing_redesign{
     width: 100%;
     height: auto;
-    margin: 500px 0;
+    margin-top: 250px;
 }
 .dancing_redesign img{
     width: 100%;
     height: auto;
+}
+
+/* 춤추는 연인 달력 목업 */
+.dancing_calendar{
+    width: 100%;
+    height: auto;
+
+}
+.dancing_calendar img{
+    width: 100%;
+    object-fit: cover;
 }
 
 /* 춤추는 연인 스케치 */
