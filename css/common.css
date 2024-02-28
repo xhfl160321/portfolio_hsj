@@ -49,6 +49,7 @@ section{
 
 .main > img{
     position: absolute;
+    animation: motion 0.8s linear 0s infinite alternate;
 }
 .icon1{
     width: 150px;
@@ -61,6 +62,11 @@ section{
 .icon3{
     width: 150px;
     top: 150px; right: 200px;
+}
+
+@keyframes motion{
+    0% {margin-top: 0px;}
+    100% {margin-top: 15px;}
 }
 
 /* 메뉴 */
