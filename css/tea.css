@@ -1,0 +1,239 @@
+/********** 꽃차 브랜딩 디자인 *********/
+@font-face {
+    font-family: 'Cafe24Oneprettynight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.flower_tea{
+    margin-top: 30%;
+    width: 100%;
+    position: relative;
+}
+/* 꽃차 메인 로고 */
+.tea_logo{
+    width: 100%;
+    height: 1080px;
+    background: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.tea_logo img{
+    width: 250px;
+    height: auto;
+    margin-bottom: 100px;
+}
+.tea_logo p{
+    font-family: 'Cafe24Oneprettynight';
+    color: #CC6C6E;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+/* 꽃차 브랜드 설명 */
+.tea_article{
+    width: 70%;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.tea_article h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.tea_article h5{
+    font-size: 18px;
+    letter-spacing: 0.25em;
+    font-weight: 800;
+}
+.tea_article p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    line-height: 38px;
+    margin: 100px 0;
+}
+.tea_article p span{
+    font-weight: 600; 
+}
+.tea_article .work ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px 0;
+    text-align: center;
+}
+.tea_article .work ul li{
+    width: 175px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.tea_article .work ul:last-child li{
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+}
+.tea_article .work ul:last-child li:last-child{
+    text-align: left;
+}
+.tea_article .work ul:last-child li:last-child .pink{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 45px;
+    margin-right: 10px;
+    background: #CC6C6E;
+    display: inline-block;
+    text-align: center;
+}
+.tea_article .work ul:last-child li:last-child .yellow{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 45px;
+    background: #D4BB47;
+    display: inline-block;
+    text-align: center;
+}
+
+/* 꽃차 메인 목업 */
+.tea_mockup{
+    width: 100%;
+    height: 1080px;
+    overflow: hidden;
+    object-fit: cover;
+    position: relative;
+}
+.tea_mockup img{
+    width: 120%;
+    height: auto;
+    position: absolute;
+    top: -300px; left: -200px;
+}
+
+/* 꽃차 로고2 */
+.tea_logo2{
+    width: 100%;
+    height: 1080px;
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.tea_logo2 > img.logo1{
+    width: 350px;
+    height: auto;
+}
+.tea_logo2 > img.logo2{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    right: 50px; bottom: 50px;
+    opacity: 0.5;
+}
+
+/* 꽃차 간판일러스트 */
+.tea_sign{
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+}
+.tea_sign div{
+    width: 100%;
+    height: 750px;
+    background: #C2C1AF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tea_sign div img{
+    width: 600px;
+    height: auto;
+}
+
+/* 꽃차 목업 */
+.tea_mockup2{
+    width: 100%;
+    height: 3240px;
+    position: relative;
+    background: #C2C1AF;
+    overflow: hidden;
+}
+.tea_mockup2 img{
+    position: absolute;
+}
+/* 글자 로고 벨트 */
+.tea_mockup2 .logo_belt{
+    width: 45px;
+    height: auto;
+    top: 1%;
+}
+.tea_mockup2 .belt1{
+    left: 300px;
+}
+.tea_mockup2 .belt2{
+    right: 300px;
+}
+/* 브로셔 */
+.tea_mockup2 .brochure{
+    width: 1350px;
+    height: auto;
+}
+.tea_mockup2 .b1{
+    right: -500px;
+}
+.tea_mockup2 .b2{
+    left: -700px;
+    top: 15%;
+}
+/* 포장지 */
+.tea_mockup2 .package{
+    width: 950px;
+    height: auto;
+    right: 200px; top: 32%;
+}
+/* 머그잔 & 물병 */
+.tea_mockup2 .mug{
+    width: 520px;
+    height: auto;
+    left: 300px; top: 55%;
+}
+.tea_mockup2 .bottle{
+    width: 650px;
+    height: auto;
+    top: 70%;
+}
+.tea_mockup2 .bt1{
+    left: 422px;
+}
+.tea_mockup2 .bt2{
+    right: 462px;
+}
+
+/* 꽃차 마무리 로고 */
+.tea_logo3{
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tea_logo3 img{
+    width: 200px;
+    height: auto;
+}

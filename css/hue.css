@@ -45,8 +45,7 @@
     margin: 100px 0;
 }
 .hue_article p span{
-    font-weight: 600;
-    
+    font-weight: 600; 
 }
 
 .hue_article .work ul{
@@ -180,10 +179,11 @@
 .main_logo{
     width: 100%;
     height: 1080px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main_logo img{
     width: 210px;
     height: auto;
-    margin-top: 365px;
 }
